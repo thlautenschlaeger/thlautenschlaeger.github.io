@@ -8,53 +8,76 @@ subtitle: History and Skills
 <br>
 
 ### SKILLS
-``` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed porttitor mi. In bibendum tortor nec massa finibus, id ultricies urna pulvinar. Sed congue blandit est non sagittis. In eget lobortis ipsum. Quisque id nisl nisl. Donec nec dapibus diam. Donec vel euismod nisi.  ```  
+**General:** ``` Artificial Intelligence. Financial Markets. Machine Learning. Data Engineering. Model Design.  Optimal Control. 
+ Trajectory Optimization. Risk Management. Stock Market. Price Data. Dynamic Datasets. Data Mining. ``` 
+ <br><br>
+**Dev Stack:** ``` PostgreSQL. SQL. Python. Pandas. Numpy. PyTorch. Tensorflow. Apache AirFlow. Docker. Flask. Django. Google Cloud. Terraform. FastAPI. Git. ``` 
+
 
 ### PROJECTS
-**Title** - Description - Place <span style="float: right; ">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
+**Autonomous trading bot**   
+* Developed a live trading bot software that autonomously
+interacts on the market.
+* Algorithms inspired from optimal control.
 
-**Title** - Description - Place <span style="float: right; ">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
+**Data Lake for Stock Market Data**
+* Set up a data lake for fundamental company data and stock prices.
+* Provided a REST API infrastructure for easy to use client access.
 
-**Title** - Description - Place <span style="float: right; ">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
+**Crypto Market Anomalie Detection**   
+* Anomalie detection on crypto assets in real-time.
+* Implemented a complete ETL pipeline with 
+notification functionality.
+
+**Burrolib: A Markov Game Framework** - 
+* Designed and developed a framework to simulate multiagent Markov games.
+* The agents provide an interface to integrate learning
+algorithms e.g. RL algorithms.
+
+**Twitter sentiment analyzer** 
+* Real-time sentiment analysis on Twitter for given hashtags
 
 ### EDUCATION
 
-Institute <span style="float: right; ">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
+Technische Universität Darmstadt <span style="float: right; ">2018 - 2020</span>  
+**Computer Science - Master of Science**  
+* Specialization in artificial intelligence for dynamic systems.   
+* Master thesis in the IAS lab for autonomous systems. Derivation of an dynamic system that learns to optimize given tasks. 
  
-Institute <span style="float: right; ">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
+Technische Universität Darmstadt <span style="float: right; ">2013 - 2017</span>  
+**Computer Science - Bachelor of Science**  
+* General computer science bachelor.
+* Bachelor thesis in data mining/crawling darknets -> Concluding, understanding and presenting the structure of those market places.
 
-Institute <span style="float: right; ">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit. 
+Technische Universität Darmstadt - Intelligent Autonomous Systems <span style="float: right; ">2018</span>  
+**Reinforcement Learning Course and Project**  
+* Special course for reinforcement learning led by the IAS Darmstadt with supervision under Jan Peters. 
+* Intense work through recent research advances. Understanding, deriving, implementation and heavy evaluation of cutting edge algorithms.
 
 ### EXPERIENCE
 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
+Machine Learning Scientist / Quant Analyst - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2021 - Present</span>  
+* Strategy design for investment algorithms.
+* Research to combine machine learning with the stock market.
+* Testing of different investing strategies.
+* Evaluation of executed trades.
 
  
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
+Machine Learning Engineer - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2020 - Feb 2021</span>  
+* Development of data processing algorithm pipelines for financial
+data.
+* Design and planning of data processing and visualization architectures in a small team.
+* Setup of data lake with REST API access.
+* Design and implementation of a backtesting software.
 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
+Student Research Assistant - **TU Darmstadt - Laboratory of Lighting Technology** <span style="float: right; ">Aug 2018 - Oct 2019</span>  
+* Collected the experience to work in a research lab and got insights to the differences between operating business companies.
+* Research on non linear optimization tasks to develop a light setting controller that computes the LED configurations corresponding to the given input criteria (Python).
+* Implementation and application of recent pupil detection algorithms for live tracking systems (C++).
 
-
-### RECOGNITION & INTERESTS
-
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
+System Administrator & DevOps - **Appschmiede** <span style="float: right; ">Jul 2016 - Aug 2018</span>  
+* Set up the IT infrastructure of the company.
+* Established automated backup plans, failover networks and a new
+firewall system.
+* Set up the backend and the data streaming pipeline (MQTT) for a
+bycicle riding event.

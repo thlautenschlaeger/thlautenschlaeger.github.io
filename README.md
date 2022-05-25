@@ -1,8 +1,6 @@
 # Pudhina
 A simple, minimal [Jekyll](jekyllrb.com) theme for a personal web page and blog, focusing on white space and readability
 
-[Click here](https://knhash.github.io/Pudhina/) to see the theme in action. Note that the download PDF button redirects to 404 due to lack of the file. This is by design, to demonstrate the Glitch effect therein.
-
 ## Screenshots
 
 ![Home](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/home.png?raw=true "Home") 
@@ -24,7 +22,7 @@ A simple, minimal [Jekyll](jekyllrb.com) theme for a personal web page and blog,
 - Execute `jekyll serve` and head to [localhost:4000](http://127.0.0.1:4000) to see the results locally.
 
 ## Customization
-- Change main picture and icon in `/assets/img/pudhina`.  
+- Change main picture and icon in `/assets/img/`.  
 - Change main details regarding site in `_config.yml`.
 - Configure `index.md` for the main page, `blog.md` for Blog listing and `resume.md` for Resume page.
 - CSS properties can be found in `/assets/css/main.css`.

@@ -6,7 +6,7 @@ sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/me.jpg' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ '/assets/img/t.jpg' | prepend: site.baseurl }}" id="about-img">
 
 <div id="describe-text">
 	<p>Machine Learning | Data Analytics | Data Engineering | Financial Markets</p>
