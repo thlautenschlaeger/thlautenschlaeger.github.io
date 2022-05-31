@@ -37,6 +37,9 @@ algorithms e.g. RL algorithms.
 **Twitter sentiment analyzer** 
 * Real-time sentiment analysis on Twitter for given hashtags
 
+**Production System Deployment Google Cloud**
+* Deployment of a data lake with computation pipeline in google cloud using terraform.
+
 ### EDUCATION
 
 Technische Universität Darmstadt <span style="float: right; ">2018 - 2020</span>  
