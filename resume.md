@@ -15,7 +15,7 @@ subtitle: History and Skills
 
 
 ### PROJECTS
-**Autonomous trading bot**   
+**Autonomous Trading Bot**   
 * Developed a live trading bot software that autonomously
 interacts on the market.
 * Algorithms inspired from optimal control.
@@ -34,11 +34,11 @@ notification functionality.
 * The agents provide an interface to integrate learning
 algorithms e.g. RL algorithms.
 
-**Twitter sentiment analyzer** 
+**Twitter Sentiment Analyzer** 
 * Real-time sentiment analysis on Twitter for given hashtags
 
 **Production System Deployment Google Cloud**
-* Deployment of a data lake with computation pipeline in google cloud using terraform.
+* Deployment of a data lake with a data processing pipeline in google cloud using terraform.
 
 ### EDUCATION
 
