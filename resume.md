@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Résumé
+title: Resume
 subtitle: History and Skills
 ---
 
