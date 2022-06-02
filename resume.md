@@ -62,8 +62,8 @@ Technische Universität Darmstadt - Intelligent Autonomous Systems <span style="
 Machine Learning Scientist / Quant Analyst - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2021 - Present</span>  
 * Strategy design for investment algorithms.
 * Research to combine machine learning with the stock market.
-* Testing of different investing strategies.
-* Evaluation of executed trades.
+* Testing & evaluation of different investing strategies.
+* Time series data analysis
 
  
 Machine Learning Engineer - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2020 - Feb 2021</span>  
