@@ -9,9 +9,9 @@ subtitle: History and Skills
 
 ### SKILLS
 **General:** ``` Artificial Intelligence. Financial Markets. Machine Learning. Data Engineering. Model Design.  Optimal Control. 
- Trajectory Optimization. Risk Management. Stock Market. Price Data. Dynamic Datasets. Data Mining. Process Automation. Deep Learning.``` 
+ Trajectory Optimization. Risk Management. Stock Market. Price Data. Time Series Data. Dynamic Datasets. Data Mining. Process Automation. Deep Learning.``` 
  <br><br>
-**Dev Stack:** ``` PostgreSQL. SQL. Python. Pandas. Numpy. PyTorch. Tensorflow. Apache AirFlow. Docker. Flask. Django. Google Cloud. Terraform. FastAPI. Git. ``` 
+**Dev Stack:** ``` PostgreSQL. SQL. Statsmodels. Python. Pandas. Numpy. PyTorch. Tensorflow. Apache AirFlow. Docker. Flask. Django. Google Cloud. Terraform. FastAPI. Git. Sklearn. ``` 
 
 
 ### PROJECTS
