@@ -11,10 +11,17 @@ subtitle: History and Skills
 **General:** ``` Artificial Intelligence. Financial Markets. Machine Learning. Data Engineering. Model Design.  Optimal Control. 
  Trajectory Optimization. Risk Management. Stock Market. Price Data. Time Series Data. Dynamic Datasets. Data Mining. Process Automation. Deep Learning. Probabilistic Modeling/Programming.``` 
  <br><br>
-**Dev Stack:** ``` PostgreSQL. SQL. Statsmodels. Python. Pandas. Numpy. PyTorch. Tensorflow. Apache AirFlow. Docker. Flask. Django. Google Cloud. Terraform. FastAPI. Git. Sklearn. PyMC. Stan.``` 
+**Dev Stack:** ``` Azure, PostgreSQL. SQL. Statsmodels. Python. Pandas. Numpy. PyTorch. Tensorflow. Apache AirFlow. Docker. Flask. Django. Google Cloud. Terraform. FastAPI. Git. Sklearn. PyMC. Stan.``` 
 
 
 ### PROJECTS
+**Electrical Grid Monitoring and Data Analysis**
+* Designed and implemented an automated real-time
+electrical grid monitoring software in Python.
+* Scaled the system utilizing a Kubernetes cluster.
+* Developed pre-detection grid failure algorithms.
+* Integrated Azure cloud functionalities.
+
 **Autonomous Trading Bot**   
 * Developed a live trading bot software that autonomously
 interacts on the market.
@@ -58,6 +65,12 @@ Technische Universität Darmstadt - Intelligent Autonomous Systems <span style="
 * Intense work through recent research advances. Understanding, deriving, implementation and heavy evaluation of cutting edge algorithms.
 
 ### EXPERIENCE
+
+Software Developer / ML Enginer / ML Scientist - **Self Employed** <span style="float: right; ">Aug 2022 - Present</span>  
+* Developed a software stack for real-time streaming data analysis for a major German energy provider using Python.
+* Possess experience working with large-scale, multinational corporations.
+* Facilitated cross-functional development between various teams.
+* Assisted in making business-oriented decisions regarding soft- ware stack selections.
 
 Machine Learning Scientist / Quant Analyst - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2021 - Present</span>  
 * Strategy design for investment algorithms.
