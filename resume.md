@@ -15,6 +15,14 @@ subtitle: History and Skills
 
 
 ### PROJECTS
+**Forecasting Wind/Solar for High Voltage Grid**
+* Designed and implemented model orchestration.
+* Designed and implemented inference service runs machine learning models in production.
+* Designed a data quality service that monitors data in real-time with domain knowledge.
+* Led the technical deployment to bring the first model to the control center where the electrical grid is controlled.
+* Designed AzureML model training pipelines.
+* Integrated automatized deployment from model code to training.
+
 **Electrical Grid Monitoring and Data Analysis**
 * Designed and implemented an automated real-time
 electrical grid monitoring software in Python.
@@ -27,9 +35,15 @@ electrical grid monitoring software in Python.
 interacts on the market.
 * Algorithms inspired from optimal control.
 
+**Trader Software**
+* Devlopment of quantitative market analytics models.
+* Development of a hypothesis test software to backtest market behavior and investments.
+* Integrated live performance monitoring of investments with further rebalancing proposals.
+
 **Data Lake for Stock Market Data**
 * Set up a data lake for fundamental company data and stock prices.
 * Provided a REST API infrastructure for easy to use client access.
+* Aquired marked data providers after analysis and comparison of other data providers.
 
 **Crypto Market Anomalie Detection**   
 * Anomalie detection on crypto assets in real-time.
