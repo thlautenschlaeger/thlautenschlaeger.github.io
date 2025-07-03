@@ -11,7 +11,7 @@ subtitle: History and Skills
 **General:** ``` Artificial Intelligence. Financial Markets. Machine Learning. Data Engineering. Model Design.  Optimal Control. 
  Trajectory Optimization. Risk Management. Stock Market. Price Data. Time Series Data. Dynamic Datasets. Data Mining. Process Automation. Deep Learning. Probabilistic Modeling/Programming.``` 
  <br><br>
-**Dev Stack:** ``` Azure, PostgreSQL. SQL. Statsmodels. Python. Pandas. Numpy. PyTorch. Tensorflow. Apache AirFlow. Docker. Flask. Django. Google Cloud. Terraform. FastAPI. Git. Sklearn. PyMC. Stan.``` 
+**Dev Stack:** ``` Azure. Azure DevOps. Azure AI/ML. Kubernetes. ArgoCD. TimescaleDB. PostgreSQL. SQL. Statsmodels. Python. Pandas. Polars. Numpy. PyTorch. Tensorflow. Apache AirFlow. Docker. Flask. Django. Google Cloud. Terraform. FastAPI. Git. Sklearn. MLFlow. PyMC. Stan. FastAPI. Jupyter. Python.``` 
 
 
 ### PROJECTS
