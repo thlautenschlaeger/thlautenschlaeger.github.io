@@ -90,7 +90,7 @@ Software Developer / ML Enginer / ML Scientist - **Self Employed** <span style="
 * Led the design of a data quality service to incorporate expert knowledge into automatized analysis.
 * Experienced in working with streaming data (Kafka) with real-time model inference for wind/solar energy data.
 
-Machine Learning Scientist / Quant Analyst - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2021 - Present</span>  
+Machine Learning Scientist / Quant Analyst - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2021 - Aug 2022</span>  
 * Strategy design for investment algorithms.
 * Research to combine machine learning with the stock market.
 * Testing & evaluation of different investing strategies.
