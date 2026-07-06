@@ -10,7 +10,7 @@ sitemap:
   <p class="hero__eyebrow">Senior ML Engineer · Freelance</p>
   <h1 class="hero__title">Production ML, end to end.</h1>
   <p class="hero__lead">
-    I'm Thomas. I develop, deploy, and operate ML models — training, serving,
+    I'm Thomas. I develop, deploy, and operate ML models. From training, serving,
     inference, monitoring to established QA standards, including on critical
     infrastructure. MSc in Computer Science (AI), TU Darmstadt.
   </p>
