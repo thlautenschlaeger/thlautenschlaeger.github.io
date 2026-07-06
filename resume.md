@@ -1,116 +1,95 @@
 ---
 layout: page
 title: Resume
-subtitle: History and Skills
+subtitle: Experience, projects, and skills
 ---
 
-<span style="float: right; "><a href="{{ '/assets/resume_thomas_lautenschlaeger.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
-<br>
+<div class="resume-download">
+<a class="btn" href="{{ '/assets/resume_thomas_lautenschlaeger.pdf' | relative_url }}">Download as PDF</a>
+</div>
 
-### SKILLS
-**General:** ``` Artificial Intelligence. Financial Markets. Machine Learning. Data Engineering. Model Design.  Optimal Control. 
- Trajectory Optimization. Risk Management. Stock Market. Price Data. Time Series Data. Dynamic Datasets. Data Mining. Process Automation. Deep Learning. Probabilistic Modeling/Programming. Renewable Energy Production Data. Machine Learning Model Lifecycle Management. ``` 
- <br><br>
-**Dev Stack:** ``` Azure. Azure DevOps. Azure AI/ML. Kubernetes. ArgoCD. TimescaleDB. PostgreSQL. SQL. Statsmodels. Python. Pandas. Polars. Numpy. PyTorch. Tensorflow. Apache AirFlow. Docker. Flask. Django. Google Cloud. Terraform. FastAPI. Git. Sklearn. MLFlow. PyMC. Stan. FastAPI. Jupyter. Python.``` 
+### Experience
 
+Software Developer / ML Engineer / ML Scientist — **Self-Employed** <span class="date">Aug 2022 – Present</span>
+* Developed a software stack for real-time streaming data analysis for a major German energy provider (Python, Kafka).
+* Full machine learning lifecycle: model development, training, inference, orchestration, and monitoring.
+* Developed forecasting models running in production for wind and solar energy data.
+* Led the design of a data-quality service that encodes domain expert knowledge into automated analysis.
+* Facilitated cross-functional development between teams and advised on software stack decisions in a large multinational corporation.
 
-### PROJECTS
-**Forecasting Wind/Solar for High Voltage Grid**
-* Designed and implemented model orchestration.
-* Designed and implemented inference service runs machine learning models in production.
-* Designed a data quality service that monitors data in real-time with domain knowledge.
-* Led the technical deployment to bring the first model to the control center where the electrical grid is controlled.
-* Designed AzureML model training pipelines.
-* Integrated automatized deployment from model code to training.
+Machine Learning Scientist / Quant Analyst — **Inkubator 100 Plus GmbH & Co. KG** <span class="date">Feb 2021 – Aug 2022</span>
+* Strategy design for investment algorithms.
+* Research combining machine learning with stock market data.
+* Testing and evaluation of investment strategies; time-series data analysis.
+
+Machine Learning Engineer — **Inkubator 100 Plus GmbH & Co. KG** <span class="date">Feb 2020 – Feb 2021</span>
+* Built data-processing pipelines for financial data.
+* Designed data processing and visualization architectures in a small team.
+* Set up a data lake with REST API access and implemented backtesting software.
+
+Student Research Assistant — **TU Darmstadt, Laboratory of Lighting Technology** <span class="date">Aug 2018 – Oct 2019</span>
+* Research on non-linear optimization to develop a light-setting controller computing LED configurations from input criteria (Python).
+* Implemented and applied recent pupil-detection algorithms for live tracking systems (C++).
+
+System Administrator & DevOps — **Appschmiede** <span class="date">Jul 2016 – Aug 2018</span>
+* Set up the company's IT infrastructure: automated backups, failover networks, and a new firewall system.
+* Built the backend and MQTT data-streaming pipeline for a bicycle riding event.
+
+### Selected Projects
+
+**Wind/Solar Forecasting for the High-Voltage Grid**
+* Designed and implemented model orchestration and the production inference service.
+* Built a real-time data-quality monitoring service incorporating domain knowledge.
+* Led the technical deployment bringing the first model into the grid control center.
+* Designed AzureML training pipelines with automated deployment from model code to training.
 
 **Electrical Grid Monitoring and Data Analysis**
-* Designed and implemented an automated real-time
-electrical grid monitoring software in Python.
-* Scaled the system utilizing a Kubernetes cluster.
-* Developed pre-detection grid failure algorithms.
-* Integrated Azure cloud functionalities.
+* Automated real-time grid-monitoring software in Python, scaled on a Kubernetes cluster.
+* Developed pre-detection algorithms for grid failures; integrated Azure cloud services.
 
-**Autonomous Trading Bot**   
-* Developed a live trading bot software that autonomously
-interacts on the market.
-* Algorithms inspired from optimal control.
+**Autonomous Trading Bot**
+* Live trading software that autonomously interacts with the market, with algorithms inspired by optimal control.
 
 **Trader Software**
-* Devlopment of quantitative market analytics models.
-* Development of a hypothesis test software to backtest market behavior and investments.
-* Integrated live performance monitoring of investments with further rebalancing proposals.
+* Quantitative market analytics models and a hypothesis-testing framework to backtest market behavior and investments.
+* Live performance monitoring of investments with rebalancing proposals.
 
 **Data Lake for Stock Market Data**
-* Set up a data lake for fundamental company data and stock prices.
-* Provided a REST API infrastructure for easy to use client access.
-* Aquired marked data providers after analysis and comparison of other data providers.
+* Data lake for fundamental company data and stock prices with a REST API for client access.
+* Evaluated and selected market data providers.
 
-**Crypto Market Anomalie Detection**   
-* Anomalie detection on crypto assets in real-time.
-* Implemented a complete ETL pipeline with 
-notification functionality.
+**Crypto Market Anomaly Detection**
+* Real-time anomaly detection on crypto assets with a complete ETL pipeline and notifications.
 
-**Burrolib: A Markov Game Framework** - 
-* Designed and developed a framework to simulate multiagent Markov games.
-* The agents provide an interface to integrate learning
-algorithms e.g. RL algorithms.
+**Burrolib: A Markov Game Framework**
+* Framework to simulate multi-agent Markov games; agents expose an interface for learning algorithms (e.g. RL).
 
-**Twitter Sentiment Analyzer** 
-* Real-time sentiment analysis on Twitter for given hashtags
+**Twitter Sentiment Analyzer**
+* Real-time sentiment analysis on Twitter for given hashtags.
 
-**Production System Deployment Google Cloud**
-* Deployment of a data lake with a data processing pipeline in google cloud using terraform.
+**Production Deployment on Google Cloud**
+* Data lake with a processing pipeline deployed on Google Cloud using Terraform.
 
-### EDUCATION
+### Education
 
-Technische Universität Darmstadt <span style="float: right; ">2018 - 2020</span>  
-**Computer Science - Master of Science**  
-* Specialization in artificial intelligence for dynamic systems.   
-* Master thesis in the IAS lab for autonomous systems. Derivation of an dynamic system that learns to optimize given tasks. 
- 
-Technische Universität Darmstadt <span style="float: right; ">2013 - 2017</span>  
-**Computer Science - Bachelor of Science**  
-* General computer science bachelor.
-* Bachelor thesis in data mining/crawling darknets -> Concluding, understanding and presenting the structure of those market places.
+**Computer Science — Master of Science**, Technische Universität Darmstadt <span class="date">2018 – 2020</span>
+* Specialization in artificial intelligence for dynamic systems.
+* Master thesis at the IAS lab for autonomous systems: derivation of a dynamic system that learns to optimize given tasks.
 
-Technische Universität Darmstadt - Intelligent Autonomous Systems <span style="float: right; ">2018</span>  
-**Reinforcement Learning Course and Project**  
-* Special course for reinforcement learning led by the IAS Darmstadt with supervision under Jan Peters. 
-* Intense work through recent research advances. Understanding, deriving, implementation and heavy evaluation of cutting edge algorithms.
+**Computer Science — Bachelor of Science**, Technische Universität Darmstadt <span class="date">2013 – 2017</span>
+* Bachelor thesis on data mining/crawling darknet market places: analyzing and presenting their structure.
 
-### EXPERIENCE
+**Reinforcement Learning Course and Project**, TU Darmstadt IAS <span class="date">2018</span>
+* Course led by IAS Darmstadt under supervision of Jan Peters: derivation, implementation, and evaluation of recent RL algorithms.
 
-Software Developer / ML Enginer / ML Scientist - **Self Employed** <span style="float: right; ">Aug 2022 - Present</span>  
-* Developed a software stack for real-time streaming data analysis for a major German energy provider using Python.
-* Possess experience working with large-scale, multinational corporations.
-* Facilitated cross-functional development between various teams.
-* Assisted in making business-oriented decisions regarding soft- ware stack selections.
-* Proficiency in machine learning model development, training, inference, orchestration --> ML LifeCycle Management.
-* Developed forecasting models and running in production.
-* Led the design of a data quality service to incorporate expert knowledge into automatized analysis.
-* Experienced in working with streaming data (Kafka) with real-time model inference for wind/solar energy data.
+### Skills
 
-Machine Learning Scientist / Quant Analyst - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2021 - Aug 2022</span>  
-* Strategy design for investment algorithms.
-* Research to combine machine learning with the stock market.
-* Testing & evaluation of different investing strategies.
-* Time series data analysis
+**Domains**
+<ul class="tags">
+<li class="tag">Machine Learning</li><li class="tag">Deep Learning</li><li class="tag">Probabilistic Modeling</li><li class="tag">Time Series</li><li class="tag">Forecasting</li><li class="tag">Optimal Control</li><li class="tag">Trajectory Optimization</li><li class="tag">Data Engineering</li><li class="tag">Data Mining</li><li class="tag">Process Automation</li><li class="tag">Financial Markets</li><li class="tag">Risk Management</li><li class="tag">Renewable Energy Data</li><li class="tag">ML Lifecycle Management</li><li class="tag">Model Serving</li><li class="tag">Sovereign AI</li>
+</ul>
 
-Machine Learning Engineer - **Inkubator 100 Plus GmbH & Co. KG** <span style="float: right; ">Feb 2020 - Feb 2021</span>  
-* Development of data processing algorithm pipelines for financial
-data.
-* Design and planning of data processing and visualization architectures in a small team.
-* Setup of data lake with REST API access.
-* Design and implementation of a backtesting software.
-
-Student Research Assistant - **TU Darmstadt - Laboratory of Lighting Technology** <span style="float: right; ">Aug 2018 - Oct 2019</span>  
-* Collected the experience to work in a research lab and got insights to the differences between operating business companies.
-* Research on non linear optimization tasks to develop a light setting controller that computes the LED configurations corresponding to the given input criteria (Python).
-* Implementation and application of recent pupil detection algorithms for live tracking systems (C++).
-
-System Administrator & DevOps - **Appschmiede** <span style="float: right; ">Jul 2016 - Aug 2018</span>  
-* Set up the IT infrastructure of the company.
-* Established automated backup plans, failover networks and a new
-firewall system.
-* Set up the backend and the data streaming pipeline (MQTT) for a
-bycicle riding event.
+**Tools**
+<ul class="tags">
+<li class="tag">Python</li><li class="tag">PyTorch</li><li class="tag">TensorFlow</li><li class="tag">Scikit-learn</li><li class="tag">Statsmodels</li><li class="tag">PyMC</li><li class="tag">Stan</li><li class="tag">Pandas</li><li class="tag">Polars</li><li class="tag">NumPy</li><li class="tag">SQL</li><li class="tag">PostgreSQL</li><li class="tag">TimescaleDB</li><li class="tag">Kafka</li><li class="tag">Apache Airflow</li><li class="tag">MLflow</li><li class="tag">FastAPI</li><li class="tag">Flask</li><li class="tag">Django</li><li class="tag">Docker</li><li class="tag">Ray Serve</li><li class="tag">Kubernetes</li><li class="tag">ArgoCD</li><li class="tag">Terraform</li><li class="tag">Azure</li><li class="tag">Azure DevOps</li><li class="tag">Azure AI/ML</li><li class="tag">Google Cloud</li><li class="tag">Git</li>
+</ul>
