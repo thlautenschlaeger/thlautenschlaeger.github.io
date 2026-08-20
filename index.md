@@ -22,7 +22,8 @@ sitemap:
     <li class="tag">Sovereign AI</li>
   </ul>
   <div class="btn-row">
-    <a class="btn btn--primary" href="{{ '/resume' | relative_url }}">View resume</a>
+    <a class="btn btn--primary" href="{{ '/projects' | relative_url }}">Selected work</a>
+    <a class="btn" href="{{ '/resume' | relative_url }}">View resume</a>
     <a class="btn" href="{{ '/assets/resume_thomas_lautenschlaeger.pdf' | relative_url }}">Download PDF</a>
   </div>
 </section>

@@ -9,6 +9,7 @@
   --line: #e2e8e5;
   --chip-bg: #eef4f1;
   --bg: #fdfdfc;
+  --alert: #b8502f;
   --sans: 'IBM Plex Sans', -apple-system, sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, monospace;
 }
@@ -220,6 +221,146 @@ blockquote {
 .PageNavigation a { display: block; width: 50%; float: left; margin: 1em 0; }
 .PageNavigation .next { text-align: right; }
 
+/* =Projects **************************************************************/
+.projects-intro {
+  max-width: 600px;
+  margin: 0 auto 4px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.projects-outro { margin-top: 26px; text-align: center; color: var(--muted); font-size: 15px; }
+
+.project {
+  margin-top: 28px;
+  padding: 24px 24px 20px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+.project:hover { border-color: #c9ded6; box-shadow: 0 6px 22px rgba(27, 36, 32, .06); }
+
+.project__meta { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px; }
+.project__client {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.project__sector { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+.project__title { font-size: 20px; font-weight: 700; letter-spacing: -.01em; margin: 8px 0 6px; }
+.project__lead { margin: 0; color: var(--muted); font-size: 16px; }
+
+.project__points { list-style: none; padding: 0; margin: 18px 0 0; }
+.project__points li { position: relative; padding-left: 18px; margin-bottom: 7px; font-size: 15.5px; }
+.project__points li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: .62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 1px;
+  background: var(--accent);
+  opacity: .5;
+  transform: rotate(45deg);
+}
+
+.project__stack { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+
+/* =Visualizations ********************************************************/
+.viz-wrap { margin: 20px 0 0; }
+.viz { display: block; width: 100%; height: auto; }
+
+.legend {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  padding: 0;
+  margin: 12px 0 0;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--muted);
+}
+.legend__key { display: flex; align-items: center; gap: 7px; }
+.legend__key::before {
+  content: '';
+  width: 14px;
+  height: 0;
+  border-top: 3px solid var(--k, var(--accent));
+  border-radius: 2px;
+}
+.legend__key--dash::before { border-top-style: dashed; }
+.legend__key--dot::before { width: 8px; height: 8px; border: 0; border-radius: 50%; background: var(--k); }
+.viz-hint { display: none; }
+.legend__key--area::before { width: 14px; height: 9px; border: 0; border-radius: 2px; background: var(--k); opacity: .3; }
+
+.v-grid line { stroke: var(--line); stroke-width: 1; }
+.v-axis { stroke: #cfd8d4; stroke-width: 1; }
+.v-line { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.v-actual { stroke: var(--accent); }
+.v-fc { stroke: var(--accent); stroke-dasharray: 5 5; opacity: .85; }
+.v-band { fill: var(--accent); opacity: .13; }
+.v-now { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 4; opacity: .5; }
+.v-node { fill: var(--accent); }
+.v-edge { fill: none; stroke: var(--accent); stroke-width: 1.4; opacity: .4; }
+.v-alert { fill: var(--alert); }
+.v-alert-edge { fill: none; stroke: var(--alert); stroke-width: 2; opacity: .85; }
+.v-halo { fill: var(--alert); opacity: .18; }
+.v-halo--accent { fill: var(--accent); }
+.v-panel { fill: var(--chip-bg); }
+.v-thr { stroke: var(--alert); stroke-width: 1; stroke-dasharray: 4 4; opacity: .55; }
+.v-sig { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
+.v-zone { fill: var(--alert); opacity: .09; }
+.v-dot circle { fill: var(--muted); opacity: .32; }
+.v-near circle { fill: var(--accent); opacity: .9; }
+.v-link line { stroke: var(--accent); stroke-width: 1; opacity: .45; }
+.v-radius { fill: none; stroke: var(--accent); stroke-width: 1; stroke-dasharray: 3 4; opacity: .45; }
+.v-query { fill: var(--accent); }
+.v-box { fill: #fff; stroke: var(--line); stroke-width: 1.5; }
+.v-boxline { fill: var(--muted); opacity: .35; }
+.v-llm { fill: var(--chip-bg); stroke: var(--accent); stroke-width: 1.5; }
+.v-arrow { stroke: var(--muted); stroke-width: 1.2; opacity: .4; }
+.v-flow { fill: var(--accent); }
+.v-bench { fill: none; stroke: var(--muted); stroke-width: 1.6; stroke-dasharray: 4 4; opacity: .75; }
+.v-dd { fill: var(--alert); opacity: .15; }
+.v-bars .up { fill: var(--accent); opacity: .7; }
+.v-bars .dn { fill: var(--alert); opacity: .55; }
+
+/* Animations: base state is the finished state, so the graphics are complete
+   without JavaScript and with prefers-reduced-motion. */
+.js-viz .viz .fade { opacity: 0; }
+.js-viz .viz .draw { stroke-dasharray: var(--len, 1600); stroke-dashoffset: var(--len, 1600); }
+
+.viz--armed .fade { animation: viz-fade .7s ease-out var(--d, 0s) forwards; }
+.viz--armed .draw { animation: viz-draw 1.6s ease-out forwards; }
+
+@keyframes viz-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes viz-draw { to { stroke-dashoffset: 0; } }
+
+.pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: viz-pulse 2.8s ease-in-out infinite;
+}
+@keyframes viz-pulse {
+  0%, 100% { transform: scale(.9); opacity: .22; }
+  50% { transform: scale(1.5); opacity: .05; }
+}
+
+.flow-dot { animation: viz-flow 2.8s linear var(--d, 0s) infinite; }
+@keyframes viz-flow {
+  0% { transform: translateX(0); opacity: 0; }
+  12% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { transform: translateX(var(--fx, 100px)); opacity: 0; }
+}
+
 /* =Small screens *********************************************************/
 @media (max-width: 560px) {
   .wrapper { margin: 20px auto; }
@@ -228,6 +369,17 @@ blockquote {
   .hero__title { font-size: 27px; }
   .date, .post-teaser__date { float: none; display: block; margin-top: 2px; }
   .resume-download { text-align: center; margin-bottom: 0; }
+  .project { padding: 20px 16px 18px; border-radius: 12px; }
+  .viz-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .viz { min-width: 480px; }
+  .viz-hint {
+    display: block;
+    margin: 8px 0 0;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    opacity: .75;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
