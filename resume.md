@@ -12,6 +12,7 @@ subtitle: Experience, projects, and skills
 
 Software Developer / ML Engineer / ML Scientist — **Self-Employed** <span class="date">Aug 2022 – Present</span>
 * Developed a software stack for real-time streaming data analysis for a major German energy provider (Python, Kafka).
+* Lead development and productionization of machine-learning and real-time data-processing systems for a major German energy provider.
 * Full machine learning lifecycle: model development, training, inference, orchestration, and monitoring.
 * Developed forecasting models running in production for wind and solar energy data.
 * Led the design of a data-quality service that encodes domain expert knowledge into automated analysis.
@@ -38,10 +39,13 @@ System Administrator & DevOps — **Appschmiede** <span class="date">Jul 2016 �
 ### Selected Projects
 
 **Wind/Solar Forecasting for the High-Voltage Grid**
-* Designed and implemented model orchestration and the production inference service.
+* Designed and implemented a scalable production inference service and real-time model orchestration for renewable-energy forecasting.
+* Developed wind and solar forecasting models together with automated training, validation, versioning, and deployment pipelines using Azure ML and MLflow.
+* Built a domain-specific data-quality service to validate incoming data before downstream ML processing.
 * Built a real-time data-quality monitoring service incorporating domain knowledge.
-* Led the technical deployment bringing the first model into the grid control center.
+* Led the technical rollout into a high-voltage grid control environment and served as Tech Lead for the cross-functional development team.
 * Designed AzureML training pipelines with automated deployment from model code to training.
+* Productized and operated the solution on Kubernetes using FastAPI, Kafka, Docker, Helm, and ArgoCD, with monitoring and alerting through Grafana and OpenTelemetry.
 
 **Electrical Grid Monitoring and Data Analysis**
 * Automated real-time grid-monitoring software in Python, scaled on a Kubernetes cluster.
